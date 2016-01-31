@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Heatmap snake game",
+  "description": "",
+  "version": "0.1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "css": [
+        "css/main.css"
+      ],
+      "js": [
+        "js/zepto.min.js",
+        "js/main.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
