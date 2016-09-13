@@ -30,7 +30,7 @@
     if(!$svg.length){
         console.log('Can not found the heatmap svg')
     }else{
-        $.snakeGame(map, mapWithDom)
+        // $.snakeGame(map, mapWithDom)
     }
 
 }(Zepto)
